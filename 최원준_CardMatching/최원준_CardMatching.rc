@@ -1,0 +1,120 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "BMP1.bmp"
+
+IDB_BITMAP2             BITMAP                  "BMP2.bmp"
+
+IDB_BITMAP3             BITMAP                  "BMP3.bmp"
+
+IDB_BITMAP4             BITMAP                  "BMP4.bmp"
+
+IDB_BITMAP5             BITMAP                  "BMP5.bmp"
+
+IDB_BITMAP6             BITMAP                  "BMP6.bmp"
+
+IDB_BITMAP7             BITMAP                  "BMP7.bmp"
+
+IDB_BITMAP8             BITMAP                  "BMP8.bmp"
+
+IDB_BITMAP9             BITMAP                  "BMP9.bmp"
+
+IDB_BITMAP10            BITMAP                  "BMP10.bmp"
+
+IDB_BITMAP11            BITMAP                  "BMP11.bmp"
+
+IDB_BITMAP12            BITMAP                  "BMP12.bmp"
+
+IDB_BITMAP13            BITMAP                  "BMP13.bmp"
+
+IDB_BITMAP14            BITMAP                  "BMP14.bmp"
+
+IDB_BITMAP15            BITMAP                  "BMP15.bmp"
+
+IDB_BITMAP16            BITMAP                  "BMP16.bmp"
+
+IDB_BITMAP17            BITMAP                  "BMP17.bmp"
+
+IDB_BITMAP18            BITMAP                  "BMP18.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "선택"
+    BEGIN
+        MENUITEM "로그인",                         ID_LOGIN
+        MENUITEM "난이도 선택",                      ID_SELECTLV
+        MENUITEM "로그아웃",                        ID_LOGOUT
+        MENUITEM "종료",                          ID_EXIT
+    END
+END
+
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
